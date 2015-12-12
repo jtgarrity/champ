@@ -3,7 +3,6 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
 /* Global Styles */
 
 html,
@@ -13,7 +12,7 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .text-vertical-center {
@@ -28,41 +27,38 @@ body {
     font-size: 4.5em;
     font-weight: 700;
 }
-
 /* Custom Button Styles */
 
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .btn-light {
     border-radius: 0;
     color: #333;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
     color: #333;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
-
 /* Custom Horizontal Rule */
 
 hr.small {
     max-width: 100px;
 }
-
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -104,7 +100,7 @@ hr.small {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .sidebar-nav li a:active,
@@ -147,7 +143,6 @@ hr.small {
 .toggle {
     margin: 5px 5px 0 0;
 }
-
 /* Header */
 
 .header {
@@ -161,13 +156,29 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+/*
+@media only screen and (max-width: 480px) {
+    .header {
+        display: table;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: url(../img/hockey.jpg) no-repeat center;
+    }
+}
+*/
 
+h1,
+h2,
+h3 {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
 /* About */
 
 .about {
     padding: 50px 0;
 }
-
 /* Services */
 
 .services {
@@ -177,7 +188,6 @@ hr.small {
 .service-item {
     margin-bottom: 30px;
 }
-
 /* Callout */
 
 .callout {
@@ -191,7 +201,6 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
-
 /* Portfolio */
 
 .portfolio {
@@ -209,7 +218,6 @@ hr.small {
 .img-portfolio:hover {
     opacity: 0.8;
 }
-
 /* Call to Action */
 
 .call-to-action {
@@ -219,7 +227,6 @@ hr.small {
 .call-to-action .btn {
     margin: 10px;
 }
-
 /* Map */
 
 .map {
@@ -231,7 +238,6 @@ hr.small {
         height: 75%;
     }
 }
-
 /* Footer */
 
 footer {
